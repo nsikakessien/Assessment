@@ -6,6 +6,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif
 }
 
+/* *****HEADER**** */
 header {
     position: relative;
     left: 6%;
@@ -15,6 +16,7 @@ header h2 {
     font-size: 14px;
 }
 
+/* ****TOP MENU***** */
 .top-menu{
     text-align: center;
     max-width: 95%;
@@ -48,7 +50,24 @@ header h2 {
     display: inline-block;
 }
 
+.badge:after{
+    content: attr(data-count);
+    background: #ff6600;
+    height: 0.7rem;
+    top: 8%;
+    right: 19%;
+    width: 0.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #ff6600;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+}
 
+/* *****ICONS***** */
 i.fas.fa-map-marker-alt {
     font-size: 12px;
     color: #227EFF;
@@ -85,23 +104,9 @@ i.fas.fa-search {
     right: 3rem;
 }
 
-.badge:after{
-    content: attr(data-count);
-    background: #ff6600;
-    height: 0.7rem;
-    top: 8%;
-    right: 19%;
-    width: 0.7rem;
-    text-align: center;
-    line-height: 0.7rem;
-    font-size: 0.5rem;
-    border-radius: 50%;
-    color: white;
-    border: 1px solid #ff6600;
-    font-family: 'Noto Sans JP', sans-serif;
-    position: absolute;
-}
 
+
+/* *****FEATURES***** */
 .features {
     text-align: center;
     max-width: 95%;
@@ -131,6 +136,7 @@ i.fas.fa-search {
     bottom: 15px;
 }
 
+/* ****ITEMS**** */
 .items {
     text-align: center;
     max-width: 95%;
@@ -231,6 +237,7 @@ i.fas.fa-cart-arrow-down {
     background-color: #EDF2F7;
 }
 
+/* ******BOTTOM MENU***** */
 .fixed-menu {
     max-width: 95%;
     white-space: nowrap;
@@ -260,16 +267,43 @@ i.fas.fa-cart-arrow-down {
 .sticky .blue {
     color: #227EFF;
 }
+
+/* *******BANNER******* */
 .banner {
     background-color: #003277;
-    width: 80%;
+    background-image: radial-gradient(2px circle at 60% 80%, 
+    #07D571 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 55% 1%, 
+    #07D571 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 46% 20%, 
+    #07D571 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 63% 65%, 
+    #07D571 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 26% 19%, 
+    #07D571 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 19% 15%, 
+    #07D571 50%, 
+    transparent 51%),
+    radial-gradient(3px circle at 0 42%, 
+    #FF705E 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 43% 70%, 
+    #FFC042 50%, 
+    transparent 51%),
+    radial-gradient(2px circle at 5% 80%, 
+    #EE6F44 50%, 
+    transparent 51%);
+    width: 90%;
     height: 120px;
     border-radius: 10px;
     position: relative;
     margin: 0 auto;
 }
-
-
 
 .text a {
     text-decoration: none;
@@ -279,7 +313,7 @@ i.fas.fa-cart-arrow-down {
     padding: 10px 17px;
     border-radius: 5px;
     position: absolute;
-    left: 60%;
+    left: 65%;
     top: 30%;
 }
 
@@ -288,7 +322,7 @@ i.fas.fa-cart-arrow-down {
     color: #FFFFFF;
     max-width: 50%;
     position: absolute;
-    left: 10%;
+    left: 7%;
     top: 20%;
 
 }
@@ -303,7 +337,7 @@ i.fas.fa-cart-arrow-down {
     height: 120px;
     border-radius: 10px;
     position: absolute;
-    left: -85%;
+    left: -82%;
    
 }
 
@@ -313,6 +347,6 @@ i.fas.fa-cart-arrow-down {
     height: 120px;
     border-radius: 10px;
     position: absolute;
-    right: -85%;
+    right: -82%;
    
 }
