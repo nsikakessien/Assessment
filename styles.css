@@ -271,12 +271,9 @@ i.fas.fa-cart-arrow-down {
 /* *******BANNER******* */
 .banner {
     position: relative;
-    left: 9%;
+    left: 0.2%;
     width: 90%;
     height: 120px;
-}
-
-.text {
     background-color: #003277;
     background-image: radial-gradient(2px circle at 60% 80%, 
     #07D571 50%, 
@@ -305,18 +302,13 @@ i.fas.fa-cart-arrow-down {
     radial-gradient(2px circle at 5% 80%, 
     #EE6F44 50%, 
     transparent 51%);
-    width: 90%;
-    height: 120px;
     border-radius: 10px;
-    position: absolute;
     margin: 0 auto;
-    opacity: 1;
-    animation-name: fade;
+    animation-name: slide;
+    animation-duration: 60s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
     animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-duration: 80s;
-    animation-delay: 40s;
-
 }
 
 
@@ -342,56 +334,121 @@ i.fas.fa-cart-arrow-down {
 
 }
 
-.text p span {
+.banner p span {
     color: #EE6F44;
 }
 
-.text-1 {
-    background-color: #227EFF;
-    width: 90%;
-    height: 120px;
-    border-radius: 10px;
-    position: absolute;
-    margin: 0 auto;
-    opacity: 0;
-    animation-name: fade1;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-duration: 60s;
-    animation-delay: 40s;
-   
+@keyframes slide {
+    25% { background-color: #EE6F44; background-image: radial-gradient(2px circle at 60% 80%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 55% 1%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 46% 20%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 63% 65%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 26% 19%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 19% 15%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(3px circle at 0 42%, 
+        #FF705E 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 43% 70%, 
+        #FFC042 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 5% 80%, 
+        #EE6F44 50%, 
+        transparent 51%); }
+    50% { background-color: #227EFF; background-image: radial-gradient(2px circle at 60% 80%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 55% 1%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 46% 20%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 63% 65%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 26% 19%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 19% 15%, 
+        #07D571 50%, 
+        transparent 51%),
+        radial-gradient(3px circle at 0 42%, 
+        #FF705E 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 43% 70%, 
+        #FFC042 50%, 
+        transparent 51%),
+        radial-gradient(2px circle at 5% 80%, 
+        #EE6F44 50%, 
+        transparent 51%); }
+    75% { background-color: #003277;
+            background-image: radial-gradient(2px circle at 60% 80%, 
+            #07D571 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 55% 1%, 
+            #07D571 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 46% 20%, 
+            #07D571 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 63% 65%, 
+            #07D571 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 26% 19%, 
+            #07D571 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 19% 15%, 
+            #07D571 50%, 
+            transparent 51%),
+            radial-gradient(3px circle at 0 42%, 
+            #FF705E 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 43% 70%, 
+            #FFC042 50%, 
+            transparent 51%),
+            radial-gradient(2px circle at 5% 80%, 
+            #EE6F44 50%, 
+            transparent 51%); }
+        100% { background-image: radial-gradient(2px circle at 60% 80%, 
+                #07D571 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 55% 1%, 
+                #07D571 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 46% 20%, 
+                #07D571 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 63% 65%, 
+                #07D571 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 26% 19%, 
+                #07D571 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 19% 15%, 
+                #07D571 50%, 
+                transparent 51%),
+                radial-gradient(3px circle at 0 42%, 
+                #FF705E 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 43% 70%, 
+                #FFC042 50%, 
+                transparent 51%),
+                radial-gradient(2px circle at 5% 80%, 
+                #EE6F44 50%, 
+                transparent 51%); }
+    
 }
 
-.text-2 {
-    background-color: #EE6F44;
-    width: 90%;
-    height: 120px;
-    border-radius: 10px;
-    position: absolute;
-    margin: 0 auto;
-    opacity: 0;
-    animation-name: fade2;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    animation-duration: 40s;
-    animation-delay: 80s;
-   
-}
 
-@keyframes fade {
-    0% { opacity: 1; }
-    50% { opacity: 0; }
-    100% { opacity: 0; }
-}
-
-@keyframes fade1 {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
-
-@keyframes fade2 {
-    0% { opacity: 0; }
-    50% { opacity: 0; }
-    100% { opacity: 1; }
-}
