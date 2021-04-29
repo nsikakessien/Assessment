@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP', sans-serif
+}
+
+header {
+    position: relative;
+    left: 6%;
+}
+
+header h2 {
+    font-size: 14px;
+}
+
+.top-menu{
+    text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.top {
+    width: 32%;
+    display: inline-block;
+    
+}
+
+.vertical {
+    border-left: 1px solid #CBD6E0;
+    height: 20px;
+    position:absolute;
+    left: 34%;
+    top: 10.5%;
+}
+
+.vertical-1 {
+    border-left: 1px solid #CBD6E0;
+    height: 20px;
+    position:absolute;
+    left: 68%;
+    top: 10.5%;
+}
+
+.top p {
+    font-size: 12px;
+    display: inline-block;
+}
+
+
+i.fas.fa-map-marker-alt {
+    font-size: 12px;
+    color: #227EFF;
+    background-color: #EDF2F7;
+    padding: 5px;
+    border-radius: 50%;
+    
+}
+
+i.fas.fa-file-invoice {
+    font-size: 12px;
+    color: #7E42F5;
+    background-color: #EDF2F7;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+i.fas.fa-shopping-cart {
+    font-size: 12px;
+    color: #2E4457;
+    background-color: #EDF2F7;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+i.fas.fa-angle-down {
+    padding: 5px 0 0 5px;
+    
+}
+
+i.fas.fa-search {
+    position: absolute;
+    top: 7rem;
+    right: 3rem;
+}
+
+.badge:after{
+    content: attr(data-count);
+    background: #ff6600;
+    height: 0.7rem;
+    top: 8%;
+    right: 19%;
+    width: 0.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    border: 1px solid #ff6600;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+}
+
+.features {
+    text-align: center;
+    max-width: 95%;
+    white-space: nowrap;
+    padding: 10px 0 5px 0;
+    margin: 0 auto;
+}
+
+.feature {
+    width: 22%;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.feature p {
+    font-size: 10px;
+    text-align: center;
+}
+
+.feature p span {
+    display: block;
+}
+
+.feature-span {
+    padding: 15px;
+    position: relative;
+    bottom: 15px;
+}
+
+.items {
+    text-align: center;
+    max-width: 95%;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+
+
+.item {
+    width: 32%;
+    display: inline-block;
+    line-height: 15px;
+}
+
+.item p {
+    line-height: 8px;
+    max-width: 90%;
+    text-align: left;
+    position: relative;
+    left: 10%;
+}
+
+.item p:nth-child(2) {
+    color: #718596;
+    font-size: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.item p:nth-child(4) {
+    color: #718596;
+    font-size: 10px;
+    
+}
+
+.item p:nth-child(3) {
+    font-size: 10px;
+    font-weight: 700;
+
+}
+
+.items .item img {
+    height: 120px;
+    width: 80%;
+    border-radius: 5px;
+    
+}
+
+i.far.fa-file-alt {
+    font-size: 20px;
+    background-color: #227EFF;
+    color: #E9F2FF;
+    padding: 15px 18px 15px 18px;
+    border-radius: 3px;
+}
+
+i.fa-fire-alt {
+    font-size: 20px;
+    background-color: #EE6F44;
+    color: #E9F2FF;
+    padding: 15px 18px 15px 18px;
+    border-radius: 3px;
+}
+
+i.far.fa-thumbs-up {
+    font-size: 20px;
+    background-color: #7E4EF5;
+    color: #E9F2FF;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+i.fas.fa-store {
+    font-size: 20px;
+    background-color: #05944F;
+    color: #E9F2FF;
+    padding: 15px 13px 15px 13px;
+    border-radius: 3px;
+}
+
+i.fas.fa-cart-arrow-down {
+    color: #227EFF;
+}
+
+.search {
+    text-align: center;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.search input {
+    width: 80%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 12px;
+    background-color: #EDF2F7;
+}
+
+.fixed-menu {
+    max-width: 95%;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+.fixed-menu p {
+    font-size: 12px;
+    color: #718596;
+}
+
+.fixed-menu i {
+    color: #718596;
+    position: relative;
+    top: 10px;
+}
+
+.sticky {
+    width: 19%;
+    display: inline-block;
+}
+
+.sticky .blue {
+    color: #227EFF;
+}
+.banner {
+    background-color: #003277;
+    width: 80%;
+    height: 120px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+.text a {
+    text-decoration: none;
+    background: #227EFF;
+    color: #FFFFFF;
+    font-size: 10px;
+    padding: 10px 17px;
+    border-radius: 5px;
+    position: absolute;
+    left: 60%;
+    top: 30%;
+}
+
+.text p {
+    font-size: 12px;
+    color: #FFFFFF;
+    max-width: 50%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+
+}
+
+.text p span {
+    color: #EE6F44;
+}
+
+.text-1 {
+    background-color: #227EFF;
+    width: 80%;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute;
+    left: -85%;
+   
+}
+
+.text-2 {
+    background-color: #EE6F44;
+    width: 80%;
+    height: 120px;
+    border-radius: 10px;
+    position: absolute;
+    right: -85%;
+   
+}
